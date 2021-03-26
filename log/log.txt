@@ -1,0 +1,19 @@
+[Trace] [Time 0.00 / 0.00 sec] Reference sites initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference stores initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference statuses initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference status_groups initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference payment_types initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference order_types initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference order_methods initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference delivery_types initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference delivery_services initialization completed.
+[Trace] [Time 0.16 / 0.16 sec] File D:\DATA\JSON\crm\references\sites.json is saved. (4 Items)
+[Trace] [Time 0.16 / 0.32 sec] File D:\DATA\JSON\crm\references\sites.json is saved. (4 Items)
+[Trace] [Time 0.21 / 0.54 sec] File D:\DATA\JSON\crm\references\stores.json is saved. (10 Items)
+[Trace] [Time 0.16 / 0.70 sec] File D:\DATA\JSON\crm\references\statuses.json is saved. (43 Items)
+[Trace] [Time 0.17 / 0.86 sec] File D:\DATA\JSON\crm\references\status_groups.json is saved. (6 Items)
+[Trace] [Time 0.55 / 1.41 sec] File D:\DATA\JSON\crm\references\payment_types.json is saved. (111 Items)
+[Trace] [Time 0.16 / 1.57 sec] File D:\DATA\JSON\crm\references\order_types.json is saved. (4 Items)
+[Trace] [Time 0.15 / 1.73 sec] File D:\DATA\JSON\crm\references\order_methods.json is saved. (21 Items)
+[Trace] [Time 0.28 / 2.01 sec] File D:\DATA\JSON\crm\references\delivery_types.json is saved. (10 Items)
+[Trace] [Time 0.22 / 2.22 sec] File D:\DATA\JSON\crm\references\delivery_services.json is saved. (236 Items)
