@@ -1,4 +1,4 @@
-from core import crm
+import retailcrm
 
-references = crm.Reference()
-references.store_period()
+for reference in retailcrm.v5.reference:
+    reference.store_period()

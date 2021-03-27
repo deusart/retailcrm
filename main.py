@@ -1,30 +1,9 @@
 import retailcrm
+import datetime
 
-retailcrm.v5.reference.sites.store_period()
+orders = retailcrm.v5.customers_corporate
 
-for reference in retailcrm.v5.reference:
-    reference.store_period()
+date_start = str(datetime.datetime.now().date() + datetime.timedelta(days = -20))
+date_finish = str(datetime.datetime.now().date() + datetime.timedelta(days = +1))
 
-
-
-# from retailcrm.engine import CrmEngine
-# from config import settings
-# engine = CrmEngine(settings, '')
-
-# print(settings.API_KEY)
-# print(engine.api_key)
-# print(urls.reference.sites)
-# print(engine.get_response(urls.reference.sites))
-
-# from retailcrm.entitysets import EntitySets
-# from retailcrm.engine import CrmEngine
-# from retailcrm.debug import Debug
-# from retailcrm import crm
-
-# from config import settings
-
-# debug = Debug(settings.OUTPUT)
-# entitysets = EntitySets(settings)
-# print(entitysets['reference'])
-
-# site = crm.Reference(entitysets['reference']['sites'], debug),
+orders.store_period(date_start, date_finish)

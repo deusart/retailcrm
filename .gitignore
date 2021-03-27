@@ -1,5 +1,6 @@
 *_old*
 *venv*
-*settings*
+*settings.py*
 *.vscode*
 *_retailcrm*
+*__pycache__*
