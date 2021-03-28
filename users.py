@@ -1,7 +1,8 @@
-from core import crm
+import retailcrm
+import datetime
 
-users = crm.UsersGroups()
-users.store_period()
+users = retailcrm.v5.users
+users.store()
 
-users = crm.Users()
-users.store_period()
+user_groups = retailcrm.v5.user_groups
+user_groups.store()

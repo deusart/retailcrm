@@ -10,29 +10,19 @@
 [Trace] [Time 0.00 / 0.00 sec] Reference cost_groups initialization completed.
 [Trace] [Time 0.00 / 0.00 sec] Reference cost_items initialization completed.
 [Trace] [Time 0.00 / 0.00 sec] Reference countries initialization completed.
-[Trace] [Time 0.00 / 0.01 sec] Reference couriers initialization completed.
-[Trace] [Time 0.00 / 0.01 sec] Reference legal_entities initialization completed.
-[Trace] [Time 0.00 / 0.01 sec] Reference mg_channels initialization completed.
-[Trace] [Time 0.00 / 0.01 sec] Reference payment_statuses initialization completed.
-[Trace] [Time 0.00 / 0.01 sec] Reference units initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference couriers initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference legal_entities initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference mg_channels initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference payment_statuses initialization completed.
+[Trace] [Time 0.00 / 0.00 sec] Reference units initialization completed.
 [Trace] [Time 0.00 / 0.01 sec] Entity orders initialization completed.
 [Trace] [Time 0.00 / 0.01 sec] Entity customers initialization completed.
 [Trace] [Time 0.00 / 0.01 sec] Entity customers_corporate initialization completed.
 [Trace] [Time 0.00 / 0.01 sec] Entity users initialization completed.
-[Trace] [Time 0.22 / 0.23 sec] File D:\DATA\JSON\crm\references\sites.json is saved. (4 Items)
-[Trace] [Time 0.24 / 0.46 sec] File D:\DATA\JSON\crm\references\stores.json is saved. (10 Items)
-[Trace] [Time 0.17 / 0.63 sec] File D:\DATA\JSON\crm\references\statuses.json is saved. (43 Items)
-[Trace] [Time 0.42 / 1.05 sec] File D:\DATA\JSON\crm\references\status_groups.json is saved. (6 Items)
-[Trace] [Time 0.52 / 1.57 sec] File D:\DATA\JSON\crm\references\payment_types.json is saved. (111 Items)
-[Trace] [Time 0.17 / 1.74 sec] File D:\DATA\JSON\crm\references\order_types.json is saved. (4 Items)
-[Trace] [Time 0.16 / 1.90 sec] File D:\DATA\JSON\crm\references\order_methods.json is saved. (21 Items)
-[Trace] [Time 0.34 / 2.24 sec] File D:\DATA\JSON\crm\references\delivery_types.json is saved. (10 Items)
-[Trace] [Time 0.21 / 2.45 sec] File D:\DATA\JSON\crm\references\delivery_services.json is saved. (236 Items)
-[Trace] [Time 0.21 / 2.66 sec] File D:\DATA\JSON\crm\references\cost_groups.json is saved. (7 Items)
-[Trace] [Time 0.20 / 2.87 sec] File D:\DATA\JSON\crm\references\cost_items.json is saved. (33 Items)
-[Trace] [Time 0.19 / 3.06 sec] File D:\DATA\JSON\crm\references\countries.json is saved. (2 Items)
-[Trace] [Time 0.37 / 3.43 sec] File D:\DATA\JSON\crm\references\couriers.json is saved. (140 Items)
-[Trace] [Time 0.16 / 3.59 sec] File D:\DATA\JSON\crm\references\legal_entities.json is saved. (6 Items)
-[Trace] [Time 0.20 / 3.80 sec] File D:\DATA\JSON\crm\references\mg_channels.json is saved. (13 Items)
-[Trace] [Time 0.19 / 3.99 sec] File D:\DATA\JSON\crm\references\payment_statuses.json is saved. (19 Items)
-[Trace] [Time 0.15 / 4.14 sec] File D:\DATA\JSON\crm\references\units.json is saved. (6 Items)
+[Trace] [Time 0.00 / 0.01 sec] Entity user_groups initialization completed.
+[Trace] [Time 0.26 / 0.26 sec] User pages counted: 6.
+[Trace] [Time 1.27 / 1.54 sec] Entities prepeared. Total count: 117 entities.
+[Trace] [Time 0.00 / 1.54 sec] File D:\DATA\JSON\crm\users\users.json is saved. (117 Items)
+[Trace] [Time 0.37 / 1.91 sec] User pages counted: 1.
+[Trace] [Time 0.37 / 2.28 sec] Entities prepeared. Total count: 20 entities.
+[Trace] [Time 0.00 / 2.28 sec] File D:\DATA\JSON\crm\user_groups\user_groups.json is saved. (20 Items)

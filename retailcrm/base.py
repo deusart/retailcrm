@@ -41,7 +41,7 @@ class Entity(object):
         
         self.ids = self.engine.remove_dublicates(history)
 
-    def prepare_entities(self, limit=100):      
+    def prepare_entities(self, limit=100):        
         self.ids.sort()  
         ids = self.ids
         while len(ids) > limit:

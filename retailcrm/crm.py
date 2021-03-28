@@ -34,4 +34,17 @@ class Reference(object):
         self.engine.save_json(self.path, self.name, data, self.timestamp)
 
 class Users(Entity):
-    pass
+
+    def prepare_entities(self, limit = 100):
+        pages = self.engine.count_pages(self.url)
+        self.engine.trace(f'User pages counted: {pages}.')
+        for page in range(1, pages+1):
+            filters = self.engine.filter_templates['page_limit'] % (page, limit)       
+            data = self.engine.get_response(self.url, filters)
+            for item in data[self.entity_id]:
+                self.entities[item['id']] = self.format(item)
+   
+    def store(self):     
+        self.prepare_entities()
+        self.engine.trace(f'Entities prepeared. Total count: {len(self.entities)} entities.')
+        self.save_json()

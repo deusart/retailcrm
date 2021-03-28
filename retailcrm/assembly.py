@@ -55,5 +55,5 @@ orders = crm.Entity(entitysets['orders'], engine)
 customers = crm.Entity(entitysets['customers'], engine)
 customers_corporate = crm.Entity(entitysets['customers_corporate'], engine)
 users = crm.Users(entitysets['users'], engine)
-user_groups = 'user_groups'
+user_groups = crm.Users(entitysets['user_groups'], engine)
 costs = 'costs'

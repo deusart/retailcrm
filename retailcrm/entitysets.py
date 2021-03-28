@@ -172,7 +172,7 @@ class EntitySets(object):
         self.entityset['reference']['units']['entity_id'] = 'units'
 
         self.entityset['users']['entity_id'] = 'users'
-        self.entityset['user_groups']['entity_id'] = 'userGroups'
+        self.entityset['user_groups']['entity_id'] = 'groups'
         self.entityset['costs']['entity_id'] = 'costs'
         self.entityset['customers']['entity_id'] = 'customers'
         self.entityset['customers_corporate']['entity_id'] = 'customersCorporate'
@@ -227,7 +227,7 @@ class EntitySets(object):
         self.entityset['reference']['units']['entity'] = 'units'
 
         self.entityset['users']['entity'] = 'user'
-        self.entityset['user_groups']['entity'] = 'user'
+        self.entityset['user_groups']['entity'] = 'groups'
         self.entityset['costs']['entity'] = 'cost'
         self.entityset['customers']['entity'] = 'customer'
         self.entityset['customers_corporate']['entity'] = 'customer'
